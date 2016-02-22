@@ -1,0 +1,15 @@
+﻿GWAS STUDIES:
+
+
+
+* Project is to get a list SNPs (Genes)
+* Everything we can about the genes (What has been discovered in GWAS)
+* GWAS catelogue
+* Write something that can look up the SNPS in the SNPS and pull that details from the about details from SNPS from complex traits and diseases 
+* Input data - RESID IDS 
+* Hard part - pulling back the information and putting it in the table
+* What chromosome, what position, if it’s in a gene, what genes are in it 
+* One column list of input (all these details about the SNPS)
+* PANDAS - statistical 
+* Jupyiter
+* Webscraping
