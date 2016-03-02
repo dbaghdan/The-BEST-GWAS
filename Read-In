@@ -1,0 +1,17 @@
+from Bio import SeqIO 
+import os
+os.chdir ('C:\Users\Danny\Downloads')
+f = raw_input("Enter Gene Filename:")
+file=open(f,'r')
+gene=[]
+for line in file:
+    line=line.strip()
+    gene.append(line)
+f = raw_input("Enter SNP Filename:")
+file=open(f,'r')
+snp=[]
+for line in file:
+    line=line.strip()
+    snp.append(line)
+print gene
+print snp
