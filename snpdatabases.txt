@@ -1,0 +1,76 @@
+NP Databases -
+http://www.humgen.nl/SNP_databases.html
+
+Gene database (Enter Gene name or ID to get disease association):
+http://www.disgenet.org/web/DisGeNET/menu;jsessionid=amwtightiuxjmfcbxi96u9lp
+
+    ALFRED - The ALlele FREquency Database
+    CGAP SNP index
+    CHIP Bioinformatics Portal
+    dbSNP <=> Refseq
+    dbSNP - Database of Single Nucleotide Polymorphisms
+    dbQSNP - A database of SNPs in human promoter regions with allele frequency information determined by single-strand conformation polymorphism-based methods.
+    FESD II - Functional element SNP database
+    Forensic SNP Information
+    F-SNP - functional SNPs, specifically prioritized for disease association studies
+    Gene Viewer - displays SNPs in mRNA sequences
+    GeneSNPs
+    Genome Variation Server - GVS137(hg19)
+    GWAScentral - a genotype-phenotype association database(formerly HGVBASE)
+    International HapMap Project
+    Japanese SNP Database
+    Mouse SNP query (MGI)
+    The database of polymorphic miRNA-target interactions
+    PhenCode - variants from locus-specific databases displayed in the UCSC genome browser
+    PolymiRTS Polymorphism in microRNA Target Site - a database of naturally occurring DNA variations in predicted and experimentally identified microRNA (miRNA) target sites
+    SeattleSeq Annotation 129 - Genome build hg18 variant annotation
+    SeattleSeq Annotation 137 - Genome build hg19 variant annotation
+    SeattleSNPs - a variation discovery resource
+    SNAP - SNP annotation and Proxy Search
+    SNP@WEB - a web-based catalog of databases and tools for SNP studies.
+    SNP500Cancer Database -
+    SNPper Retrieve known SNPs by position or by association with a gene; save, filter, analyze, display or export SNP sets; explore known genes using names or chromosome positions.
+    Tagger - tool for the selection and evaluation of tag SNPs from genotype data 
+
+SNP-specific primer design software
+
+    Pira-PCR - PCR Primer design for restriction analysis of single nucleotide polymorphisms
+    Primo SNP - Tool for designing sequence primers and evaluating RNA splicing effects
+    SNPCheck3 - SNPCheck is a tool for performing checks for the presence of SNPs in predicted PCR primer binding sites. Subscription is necessary for batch checks.
+
+SNP detection and effect prediction
+
+    GenEpi Toolbox- tools for the evaluation and prediction of genetic-epidemiological data including human SNPs
+    pfSNP- Potentially functional SNP Search Engine
+    PolyPhen-2- prediction of functional effects of human nsSNPs
+    PupaSuite - an interactive web-based SNP analysis tool that allows for the selection of relevant SNPs within a gene
+    SNAP- evaluating effects of single amino acid substitutions on protein function.
+    snp2prot- A tool to map human DNA variation onto proteins.
+
+Copy number variation databases
+
+    Database of Genomic Variants - A curated catalogue of large-scale variation in the human genome
+    DECIPHER - DatabasE of Chromosomal Imbalance and Phenotype in Humans using Ensembl Resources
+    ECARUCA - European Cytogeneticists Association Register of Unbalanced Chromosome Aberrations
+    Human Structural Variation Database - Copy number variation database (Eichler lab, 2004)
+    The Chromosome Anomaly Collection - contains examples of unbalanced chromosome abnormalities (UBCAs) without phenotypic effect
+    CNV Project - The Copy Number Variation (CNV) Project Data Index
+    Structural Genome Variation Nature Genetics 39(7s)(2007) Supplement highlighting recent advances in human genomic variation
+
+Disease-causing variations
+
+    Sequence variation database list List of disease-causing variation databases
+
+Sequence variation nomenclature
+
+    HGVS guidelines - Sequence variation nomenclature guidelines of the Human Genome Variation Society
+    Mutalyzer - a tool to check sequence variation descriptions
+
+SNP Discovery tools
+
+    novoSNP is a program that will help you find variations (SNPs and short INDELs) in resequencing projects.
+    PolyScan - de novo indel detection and SNP identification in the context of high-throughput medical sequencing.
+    PolyPhred - a program that compares fluorescence-based sequences across traces obtained from different individuals to identify heterozygous sites for single nucleotide substitutions.
+    ssahaSNP - a polymorphism detection tool that detects homozygous SNPs and indels by aligning shotgun reads to the finished genome sequence.
+    SomaticSniper – WashU somatic SNV detection algorithm for whole genome resequencing data.
+    VarScan – Somatic and germline variant detection for
