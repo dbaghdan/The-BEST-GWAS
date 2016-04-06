@@ -11,7 +11,7 @@ for line in tsv:
 
 SNPData=[]
 for x in A:
-  if x[27] == SNPname: ##The SNP name is the 28th column in the GWAS catalog
+  if x[27] == SNPname: ##The SNP name is the 28th column in the GWAS catalog, but this is subject to change
     SNPData =x
 
 if SNPData==[]:
