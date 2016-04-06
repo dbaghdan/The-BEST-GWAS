@@ -1,0 +1,238 @@
+rs62283056
+<Type|Procedure|Tissue|Gene>
+Motifs|Footprinting|Gm12891|Hand1::Tcfe2a
+ Motifs|Footprinting|Hepatocytes|Hand1::Tcfe2a
+ Motifs|PWM||Hand1::Tcfe2a
+
+rs62283057
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs17718958
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Sox4
+ Motifs|Footprinting|H1_ES|
+ Motifs|PWM||E47
+
+rs10919728
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||BCL6B
+
+rs6662178
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs11142215
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs10919727
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Tcf3
+ Motifs|PWM||FOXC1
+ Motifs|PWM||Elf3
+ Motifs|PWM||Srf
+
+rs61732470
+<Type|Procedure|Tissue|Gene>
+Motifs|Footprinting|Chorion|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Gm19239|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Gm12891|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Hsmm|ARP-1(COUP-TF2)
+ Motifs|Footprinting|8988t|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Gm12892|ARP-1(COUP-TF2)
+ Motifs|Footprinting|H1hesc|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Medullo|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Lncap|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Gm19238|ARP-1(COUP-TF2)
+ Motifs|PWM||ARP-1(COUP-TF2)
+ Motifs|Footprinting|Hepg2|ARP-1(COUP-TF2)
+ Motifs|Footprinting|Huh75|ARP-1(COUP-TF2)
+
+rs7310245
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Pou6f1
+
+rs11111952
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs1829752
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs150841085
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs2143582
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs116611814
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||AREB6
+ Motifs|Footprinting|Chorion|AREB6
+ Motifs|PWM||HEN1
+ Motifs|Footprinting|Hsmmt|HEN1
+
+rs148303925
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs4952964
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs76265085
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||MEF-2
+
+rs60568920
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs7672438
+<Type|Procedure|Tissue|Gene>
+ Motifs|PWM||Hlx1
+ Motifs|PWM||Hoxd10
+ Motifs|PWM||HOXC12
+
+rs10400561
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs77165502
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||HMX2
+ Motifs|PWM||Barhl2
+ Motifs|PWM||Barhl-1
+ Motifs|PWM||Hoxa9
+ Motifs|PWM||Nkx6-1
+ Motifs|PWM||Barhl1
+ Motifs|PWM||Hmx2
+ Motifs|PWM||HMX3
+ Motifs|PWM||Zfp105
+ Motifs|PWM||Isl2
+ Motifs|PWM||GBX1
+ Motifs|PWM||HMX1
+ Motifs|PWM||GSX2
+ Motifs|PWM||Nkx5-2
+ Motifs|PWM||Hoxb13
+ Motifs|PWM||Hmx3
+ Motifs|PWM||Nobox
+ Motifs|PWM||Msx3
+ Motifs|PWM||Msx-3
+
+rs78648551
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs76563775
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs80019458
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Cdx
+ Motifs|PWM||Isgf3g
+ Motifs|PWM||IRF
+
+rs10509055
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs16909242
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs192411503
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||MAZ
+ Motifs|PWM||VDR
+ Motifs|PWM||CKROX
+ Motifs|PWM||WT1
+ Motifs|PWM||EWSR1-FLI1
+ Motifs|PWM||UF1H3BETA
+ Motifs|PWM||SP1
+ Motifs|Footprinting|A549|UF1H3BETA
+ Motifs|PWM||Zfp281
+
+rs111575692
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs1914574
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||ZSCAN4
+
+rs16909221
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs78457199
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Sox4
+ Motifs|PWM||Sox11
+ Motifs|PWM||Foxa2
+
+rs75971544
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Hoxb8
+ Motifs|PWM||EN1
+
+rs77470598
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs76630708
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||ID4
+ Motifs|PWM||E47
+ Motifs|PWM||AREB6
+ Motifs|PWM||TCF4
+
+rs16909265
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||Six3
+ Motifs|PWM||Gata3
+
+rs112589263
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs112921216
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||CAC-bindingprotein
+
+rs2102832
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs76868969
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs76316696
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs78645391
+<Type|Procedure|Tissue|Gene>
+Motifs|PWM||CDP
+ Motifs|PWM||FOXJ3
+ Motifs|PWM||ONECUT3
+ Motifs|PWM||CUX1
+ Motifs|PWM||ONECUT1
+ Motifs|PWM||CUX2
+ Motifs|PWM||FOXJ2
+ Motifs|PWM||ONECUT2
+
+rs76035434
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+
+rs77992580
+<Type|Procedure|Tissue|Gene>
+NO MOTIF DATA
+

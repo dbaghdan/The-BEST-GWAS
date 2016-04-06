@@ -5,6 +5,7 @@
 #TODO: create classes and SNP objects if applicable
 
 import os
+import sys
 from Bio import Entrez
 
 os.chdir('C:\\Users\\Annelise\\myRepos\\The-BEST-GWAS')
@@ -17,64 +18,44 @@ def SNP_data(identifier):
     Entrez.email = 'atsueda@luc.edu'
     handle = Entrez.efetch(db="snp",id=identifier,rettype= "DocSet",retmode="text")
     records = handle.read()
+    records = records.strip().split('\n')
 
-    records = records.strip().split()
-
-
-    rsID = str(records[0])
-    Organism = records[1] + ' ' + records[2]
-    SNP_ID = ''
-    GENE = ''
-    GENE_ID = ''
-    ACC = []
-    CHR = ''
-    FXN = ''
-    CHROMOSOME_BASE_POSITION = ''
-    CONTIGPOS = ''
 
     for r in records:
-        if r.startswith('SNP_ID'):
-            SNP_ID = r.split('=')[1]
-        if r.startswith('GENE') and r.count('ID')==0:
-            GENE = r.split('=')[1]
-        if r.startswith('GENE_ID'):
-            GENE_ID = r.split('=')[1]
-        if r.startswith('ACC'):
-            ACC = r.split('=')[1]
-            ACC = ACC.strip().split()
-        if r.startswith('CHR') and (r.count('=') == 1):
-            CHR = r.split('=')[1]
-        if r.startswith('FXN'):
-            FXN = r.split('=')[1]
-        if r.startswith('POSITION'):
-            CHROMOSOME_BASE_POSITION = r.split('=')[1]
-        if r.startswith('CONTIGPOS'):
-            CONTIGPOS = r.split('=')[1]
-
-    SNP['rsID'] = rsID
-    SNP['ORGANISM'] = Organism
-    SNP['SNP_ID'] = SNP_ID
-    SNP['GENE'] = GENE
-    SNP['GENE_ID'] = GENE_ID
-    SNP['ACC'] = ACC
-    SNP['CHR'] = CHR
-    SNP['FXN'] = FXN
-    SNP['CHROMOSOME_BASE_POSITION'] = CHROMOSOME_BASE_POSITION
-    SNP['CONTIGPOS'] = CONTIGPOS
+        r.strip()
+        if r.count('=') !=0:
+            key = r.split('=')[0]
+            value = r.split('=')[1]
+            SNP[key] = value
+        else:
+            SNP['rsID'] = r.split('  ')[0]
+            SNP['organism'] = r.split('  ')[1]
 
     return SNP
 
 #MAIN-------------------------------------------------------------------------------------
-snpList = ['rs62283056','rs62283057','rs17718958','rs10919728','rs6662178']
+input_file = sys.argv[1]
+
+##input_file = 'test_snplist.txt'
+ifstream = open(input_file, 'r')
+filecontent = ifstream.read()
+filecontent = filecontent.strip().split('\n')
+ifstream.close()
+
+
+ofstream = open('entrez_output.txt', 'w')
 
 SNP_COLLECTION = []
 
-for s in snpList:
+for s in filecontent:
     SNP = SNP_data(s)
     SNP_COLLECTION.append(SNP)
-
+print 'Writing File'
 for c in SNP_COLLECTION:
     for rec in c:
-        print  str(rec) + ' = ' + str(c[rec]);
-    print '\n'
+        line = str(rec) + ' = ' + str(c[rec])
+        ofstream.write(line + '\n')
+    ofstream.write('\n')
+
+ofstream.close()
 
