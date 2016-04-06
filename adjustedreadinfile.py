@@ -19,10 +19,3 @@ def readin( ):
     for s in snp:
         print(s)
 
-
-***parseargparse.ArguementParser()
-
-***Arg prse
-**** Arg parse names the argumenents and need to specify - file name path
-***look into them
-If the user the download and 
