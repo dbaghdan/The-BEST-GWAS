@@ -1,7 +1,7 @@
 This is a base idea for how the code will search the downloaded GWAS Catalog for a SNP in the previously generated SNP list
 Feel free to change it as you see fit
 
-Finder(SNPname)
+Finder(SNPname,SNPDataList)
 ---------------------
 A=[]
 open(filename.txt,'r') as tsv ##read the GWAS cataolg as an array of arrays
@@ -16,4 +16,7 @@ for x in A:
 
 if SNPData==[]:
   print "SNP Not Found"
-return SNPData
+  return SNPData
+else:
+  SNPDataList.append(SNPData)
+  return SNPData
