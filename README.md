@@ -9,10 +9,10 @@ __To run SNPinfo you will need:__
 
 Software Requirements:  
 * Python 2.7  
-  *numPy package  
+  * numPy package  
   
   Scripts:  
-  *SNPinfo.py  
+  * SNPinfo.py  
   
   Downloaded Files:  
   * GWAS Catalogue (GWAS Catalogue can be downloaded from EBI [here](https://www.ebi.ac.uk/gwas/docs/downloads)).
@@ -20,11 +20,11 @@ Software Requirements:
   Input Files:  
   * gene list or rsID list (each gene name or rsID should be on a single line. An example gene list can
 be found [here]()).  
-  *GWAS Catalogue tsv file
-  *Output File
+  * GWAS Catalogue tsv file
+  * Output File
   
   Other Input:  
-  *email (needed to access dbSNP via the Entrez library).
+  * email (needed to access dbSNP via the Entrez library).
   
 ##Using SNPinfo  
 
