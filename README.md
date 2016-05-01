@@ -19,7 +19,7 @@ Software Requirements:
   
   Input Files:  
   * gene list or rsID list (each gene name or rsID should be on a single line. An example gene list can
-be found [here]()).  
+be found [here](https://github.com/dbaghdan/The-BEST-GWAS/blob/master/Final_code/input_files/test_genelist.txt)).  
   * GWAS Catalogue tsv file
   * Output File
   
