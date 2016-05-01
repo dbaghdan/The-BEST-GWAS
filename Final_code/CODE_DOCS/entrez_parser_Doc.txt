@@ -1,0 +1,51 @@
+Purpose of Script:
+	The purpose of this script is to pull SNP information from NCBI's dbSNP using the Entrez library.
+
+Information Categories:
+	There are several categories that are returned using the Entrez function efetch(), however we are only
+	using a subset of these categories, specifically: rsID, organism, Gene, Gene_ID, Accession number,
+	Chromosome, Function Class, SNP ID, Choromosome Base Position, and Contig Position.
+
+Functions:
+	SNP_data:
+		The SNP_data function takes in an rsID and searches the dbSNP database using that rsID as 
+		a parameter. The function implements the efetch() function using the Entrez library and 
+		returns a text file containing the information for the SNP associated with the given rsID.
+		Variables are intialized for the information categories that are being pulled from. A 
+		dictionary object is then created for the data that has been retrieved for the SNP. 
+
+Main:
+	In main a list of rsIDs is iterated trough and the SNP_data function is run using each rsID as a 
+	parameter. A list of SNP dictionary objects, called SNP_COLLECTION, is then created from the 
+	SNP_data function's outputs. Currently main prints the contents of each SNP dictionary object in
+	SNP_COLLECTION list. In the future this information will most likely be put into an output file 
+	that the user can download.
+
+Example Record From Entrez:
+
+	rs62283056  [Homo sapiens]	
+	SNP_ID=62283056
+	GLOBAL_MAF=C=0.1408/705
+	GENE=WFS1
+	GENE_ID=7466
+	ACC=NM_001145853.1,NM_006005.2,NM_006005.3,NT_006051.19
+	CHR=4
+	WEIGHT=1
+	HANDLE=1000GENOMES,BCMHGSC_JDW,BL,BUSHMAN,COMPLETE_GENOMICS,DDI,ENSEMBL,EVA-GONL,EVA_DECODE,EVA_GENOME_DK,EVA_UK10K_ALSPAC,EVA_UK10K_TWINSUK,HAMMER_LAB,ILLUMINA,JMKIDD_LAB,PJP,SSMP,TISHKOFF
+	FXN_CLASS=intron-variant
+	VALIDATED=by-1000G,by-cluster,by-frequency
+	GTYPE=true
+	NONREF=false
+	HET=24
+	TAX_ID=9606
+	CREATE_BUILD_ID=129
+	MODIFIED_BUILD_ID=146
+	CREATE_DATE=2008/03/24 20:39
+	MODIFIED_DATE=2015/10/07 17:41
+	METHOD_CLASS=computed,hybridize,sequence,unknown
+	SS_EXEMPLAR=ss92453833
+	ALLELE=S
+	SNP_CLASS=snp
+	CHROMOSOME BASE POSITION=4:6274903
+	CONTIGPOS=NT_006051.19:6264903
+	
